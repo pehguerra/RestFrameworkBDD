@@ -1,6 +1,6 @@
 Feature: Validating Place API's
 
-@addPlace
+@addPlace @regression
 Scenario Outline: Verify if place is being succesfully added using AddPlaceAPI
 	Given add place payload <name> <language> <address>
 	When user calls "AddPlaceAPI" with "POST" http request
@@ -15,7 +15,7 @@ Scenario Outline: Verify if place is being succesfully added using AddPlaceAPI
 	| "BBhouse" | "Spanish" | "Sea Cross Center"   |
 	
 
-@deletePlace	
+@deletePlace @regression
 Scenario: Verify if delet place functionality is working
 	Given DeletePlace payload
 	When user calls "DeletePlaceAPI" with "POST" http request
