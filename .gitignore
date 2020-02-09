@@ -20,7 +20,7 @@ local.properties
 .classpath
 .settings/
 .loadpath
-loggin.txt
+*.txt
 
 # External tool builders
 .externalToolBuilders/
