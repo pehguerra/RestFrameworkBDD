@@ -37,7 +37,7 @@ public class Utils {
 	
 	public static String getGlobalValue(String key) throws FileNotFoundException, IOException {
 		Properties prop = new Properties();
-		prop.load(new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\bdd\\pguerra\\utilities\\global.properties"));
+		prop.load(new FileInputStream(System.getProperty("user.dir") + "/src/test/java/bdd/pguerra/utilities/global.properties"));
 		return prop.getProperty(key);
 	}
 	
