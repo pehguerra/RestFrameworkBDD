@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features= {"src/test/resources/location"}, 
 		glue={"bdd.pguerra.stepDefinitions"},
-		tags = {"@deletePlace"},
+		tags = {"@regression"},
 		plugin = {"pretty",
 //                "html:target/report/html",
 //                "junit:target/report/junit/cucumber-report.xml",
